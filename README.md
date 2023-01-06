@@ -10,6 +10,8 @@
 
     4.Erpor Proti ta page e Routing krte hbe.
 
+    5.npm i styled-components
+
 ### `Learn :`
 
         1.(Router,Routes,Route)- Router er bitore Routes er bitore Route gula rakhte hbe jegula nijer modde route krbe jekono akta show krbe
