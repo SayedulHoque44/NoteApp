@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+#A Complete Website Making Algorithom With Data.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Step 01 : (App 01)-(Routing)
+1.Protothome Main Page Gula Create krte hbe.
 
-## Available Scripts
+    2.Page Joto Tuku Sombob Sajai nite hbe.jmn Proti page e Navbar thakte pare tai setar jonno sei babe Component Create krte hbe.
 
-In the project directory, you can run:
+    3.npm i react-router-dom , ebabe Router install krte hbe termial e
 
-### `npm start`
+    4.Erpor Proti ta page e Routing krte hbe.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    ###Learn :
+        1.(Router,Routes,Route)- Router er bitore Routes er bitore Route gula rakhte hbe jegula nijer modde route krbe jekono akta show krbe
+        2.(Link,to ={/path} ,) - Link er maddome clcik er maddome route kra jay tar path thik kra jay,
+        3.(Link,to ={path/${id}} ,) - Link er maddome abr id o send kra jay path er page e,
+        4.(useParams()) - useParams() diye sei id catch kra hy,
+        5.(Link,state={object} ,) - Link er maddome abr object/strings o send kra jay path er page e,
+        6.(useLocation()) -  useLocation() er maddome sei object catch kra hy, {const location.state = useLocation()}
+        7.(<Outlet/>) - <Outlet /> er maddome amra private route create krte pari,
+        8.(<Navigate />) - <Navigate /> er maddome amra kono condtion er upor auto path create kre navigate krte pari,
+        navigate eo Link er mto To/state sob kra jay,jmn ta Link e kra jay,
