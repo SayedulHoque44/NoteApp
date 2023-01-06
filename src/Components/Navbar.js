@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Account from "./Account";
 
 export default function Navbar() {
   let Id = 36;
@@ -10,28 +11,15 @@ export default function Navbar() {
   };
   return (
     <Nav>
-      <Link to={`Quiz/${Id}`}>Quiz Page</Link>
-      {/*We can send Id/Code Like This */}
-
-      <Link to={`Login`}>Login Page</Link>
-      <Link to={`Signup`}>Signup Page</Link>
-
-      <Link to={`Result`} state={Mystate}>
-        {/*We can send also object Like This by state property */}
-        Result Page
-      </Link>
+      <LogoArea>
+        <Link to="/">Quiz App</Link>
+      </LogoArea>
+      <Account />
     </Nav>
   );
 }
-
+const LogoArea = styled.div``;
 const Nav = styled.nav`
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  align-items: center;
-  a {
-    text-decoration: none;
-    background-color: aqua;
-    padding: 10px;
-  }
+  justify-content: space-between;
 `;
