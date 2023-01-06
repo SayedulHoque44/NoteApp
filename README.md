@@ -1,7 +1,8 @@
-#A Complete Website Making Algorithom With Data.
+# A Complete Website Making Algorithom With Data.
 
-##Step 01 : (App 01)-(Routing)
-1.Protothome Main Page Gula Create krte hbe.
+## Step 01 : (App 01)-(Routing)
+
+    1.Protothome Main Page Gula Create krte hbe.
 
     2.Page Joto Tuku Sombob Sajai nite hbe.jmn Proti page e Navbar thakte pare tai setar jonno sei babe Component Create krte hbe.
 
@@ -9,7 +10,8 @@
 
     4.Erpor Proti ta page e Routing krte hbe.
 
-    ###Learn :
+### `Learn :`
+
         1.(Router,Routes,Route)- Router er bitore Routes er bitore Route gula rakhte hbe jegula nijer modde route krbe jekono akta show krbe
         2.(Link,to ={/path} ,) - Link er maddome clcik er maddome route kra jay tar path thik kra jay,
         3.(Link,to ={path/${id}} ,) - Link er maddome abr id o send kra jay path er page e,
