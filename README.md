@@ -30,4 +30,5 @@
     step02 : add also 2 line in package.json > in scripts{} "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
     step03 : go to terminal and : npm i --save gh-pages
-    step04 : again write: npm run deploy , in brnch the name gh-pages will create ,than add to it live link
+    step04 : in router > BrowserRouter make it HashRouter
+    step05 : again write: npm run deploy , in brnch the name gh-pages will create ,than add to it live link
