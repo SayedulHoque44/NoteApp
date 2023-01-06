@@ -23,3 +23,11 @@
         7.(<Outlet/>) - <Outlet /> er maddome amra private route create krte pari,
         8.(<Navigate />) - <Navigate /> er maddome amra kono condtion er upor auto path create kre navigate krte pari,
         navigate eo Link er mto To/state sob kra jay,jmn ta Link e kra jay,
+
+### Deploy React App in GitHub
+
+    step 01 : Add 1 line in package.json > in before name in the {} breacket "homepage": "https://gituserName.github.io/repoName",
+    step02 : add also 2 line in package.json > in scripts{} "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    step03 : go to terminal and : npm i --save gh-pages
+    step04 : again write: npm run deploy , in brnch the name gh-pages will create ,than add to it live link

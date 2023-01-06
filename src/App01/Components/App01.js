@@ -1,5 +1,5 @@
 import Layout from "./Layout";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import SignUp from "./Pages/Signup";
 import Quiz from "./Pages/Quiz";
